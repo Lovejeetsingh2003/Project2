@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Project</string>
+    <string name="btnLogin">Log In</string>
+    <string name="btnSignup">Sign Up</string>
+    <string name="tvLogin">Log In</string>
+    <string name="etEmail">Enter Your Email</string>
+    <string name="etPsw">Enter Password</string>
+    <string name="tvForget">Forget Password?</string>
+    <string name="tvSignup">Sign Up</string>
+    <string name="etName">Enter Your Name</string>
+    <string name="etPhone">Enter Your Phone Number</string>
+    <string name="etCon">Confirm Password</string>
+    <string name="rbMale">Male</string>
+    <string name="rbFemale">Female</string>
+    <string name="tvGender">Select Gender</string>
+    <string name="rbOther">Other</string>
+    <string name="rbThird">Other</string>
+    <string name="rbSecond">Female</string>
+    <string name="rbFirst">Male</string>
+    <string name="tvForget1">Forget Password\n</string>
+    <string name="btnForget">Get Otp</string>
+    <string name="etContent">Forget Password For</string>
+    <string name="Star">*</string>
+    <string name="btnChange">Change Password</string>
+    <string name="tvNewPsw">Set New Password</string>
+    <string name="etNewPsw">Enter New Password</string>
+    <string name="etConPsw">Confirm Password</string>
+    <string name="btnUpdate">Update</string>
+</resources>

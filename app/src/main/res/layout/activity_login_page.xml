@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPageActivity"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="80dp"
+    android:gravity="center"
+    android:background="@drawable/background" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvLogin"
+        android:padding="20dp"
+        android:layout_marginVertical="30dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:textColor="@color/blue"
+        android:fontFamily="sans-serif-black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/llLogin"
+        android:layout_weight="1"
+        android:gravity="bottom" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etUsername"
+            android:hint="@string/etEmail"
+            android:textColorHint="@color/sky_blue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:hint="@string/etPsw"
+            android:minLines="1"
+            android:maxLength="10"
+            android:textColorHint="@color/sky_blue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:inputType="textPassword" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvForget"
+            android:text="@string/tvForget"
+            android:textSize="20sp"
+            android:textColor="@color/blue_orig"
+            android:gravity="right" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/llLogin1">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLogin1"
+            android:hint="@string/btnLogin"
+            android:backgroundTint="@color/sky_blue"
+            android:textSize="20sp"
+            android:paddingHorizontal="55dp"
+            android:paddingVertical="15dp"
+            android:textColorHint="@color/blue" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

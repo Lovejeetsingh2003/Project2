@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupPageActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/back">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSignup"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/blue"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llSignup"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="2"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:hint="@string/etName"
+            android:textColorHint="@color/sky_blue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail1"
+            android:hint="@string/etEmail"
+            android:textColorHint="@color/sky_blue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPhone"
+            android:hint="@string/etPhone"
+            android:textColorHint="@color/sky_blue"
+            android:padding="10dp"
+            android:minLines="1"
+            android:maxLength="10"
+            android:textSize="20sp"
+            android:inputType="phone" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvGender"
+            android:textColor="@color/sky_blue"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:id="@+id/rgReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rbFirst"
+                android:textSize="20sp"
+                android:textColor="@color/sky_blue"
+                android:text="@string/rbFirst" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/sky_blue"
+                android:id="@+id/rbSecond"
+                android:text="@string/rbSecond" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/sky_blue"
+                android:id="@+id/rbThird"
+                android:text="@string/rbThird" />
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPsw"
+            android:hint="@string/etPsw"
+            android:minLines="1"
+            android:maxLength="10"
+            android:textColorHint="@color/sky_blue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etConfirm"
+            android:hint="@string/etCon"
+            android:minLines="1"
+            android:maxLength="10"
+            android:textColorHint="@color/sky_blue"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:inputType="textPassword" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:id="@+id/llLogin1">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSignup1"
+                android:hint="@string/btnSignup"
+                android:backgroundTint="@color/sky_blue"
+                android:textSize="20sp"
+                android:paddingHorizontal="55dp"
+                android:paddingVertical="15dp"
+                android:textColorHint="@color/blue" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
